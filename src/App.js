@@ -64,6 +64,7 @@ function App() {
           </InputContext.Provider>
         </div>
       </div>
+        <span class="block text-sm pt-10 text-slate-100 text-center dark:text-slate-100">© 2023 <a href="https://8luex.github.io/portfolio_bluzo/" class="hover:underline">BLUEZO</a>. All Rights Reserved.</span>
     </div>
   );
 }
