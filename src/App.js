@@ -55,7 +55,9 @@ function App() {
   }
 
   return (
-    <div className="bg-gradient-to-r from-cyan-500 to-teal-400 h-screen pt-24 md:pt-50 px-2">
+    <div className="bg-gradient-to-r from-cyan-500 to-teal-400 h-screen pt-24 md:pt-55 px-2">
+      <h1 class="text-center text-slate-100 text-5xl font-bold">BLUEZO</h1>
+      <span class="block text-sm pb-10 text-slate-100 text-center dark:text-slate-100">QR-Code Generator</span>
       <div className="container mx-auto max-w-4xl bg-white rounded-md shadow">
         <div className="md:grid md:grid-cols-3">
           <InputContext.Provider value={value}>
