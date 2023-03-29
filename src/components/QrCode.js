@@ -28,7 +28,7 @@ const QrCode = () => {
           <img className="w-48" src={response} alt="qrCode" />
           <button
             onClick={downloadImage}
-            className="bg-teal-400 text-white mt-2 px-4 py-1 w-full rounded-full"
+            className="bg-teal-400 text-white mt-2 px-4 py-1 w-full rounded-full hover:bg-cyan-500"
           >Download</button>
         </div>
       ) : (
